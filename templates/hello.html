@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {% if name == 'shahin' %}
+        <h1>hello {{name|upper}} lashi</h1>
+    {% else %}
+        <h1>hello {{name}} nolashi</h1>
+    {% endif %}
+
+{% endblock content %}
